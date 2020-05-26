@@ -1,0 +1,22 @@
+flightControlSystem_sfun.o
+c2_flightControlSystem.o
+flightControlSystem_sfun_registry.o
+"/opt/MATLAB/R2019b/bin/glnxa64/libmwedgesobelprewitt_tbb.so"
+-L/opt/MATLAB/R2019b/bin/glnxa64
+-lmwedgethinning_tbb
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsf_runtime"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lfixedpoint"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lut"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lemlrt"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwstringutil"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwmathutil"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwblas"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsl_log_load_blocks"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsimulink"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsl_sfcn_cov_bridge"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lcovrt"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwlapack"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsl_simtarget_core"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsl_simtarget_instrumentation"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwslexec_simlog"
+"-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwipp"
