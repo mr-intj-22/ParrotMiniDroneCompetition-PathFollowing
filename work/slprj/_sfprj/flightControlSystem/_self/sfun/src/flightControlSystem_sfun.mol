@@ -1,9 +1,13 @@
 flightControlSystem_sfun.o
 c2_flightControlSystem.o
 flightControlSystem_sfun_registry.o
-"/opt/MATLAB/R2019b/bin/glnxa64/libmwedgesobelprewitt_tbb.so"
 -L/opt/MATLAB/R2019b/bin/glnxa64
--lmwedgethinning_tbb
+-lmwcannythresholding_tbb
+-lmwimfilter
+-lmwnhood
+-lmwippfilter
+-lmwipp
+-lmwippreconstruct
 "-L/opt/MATLAB/R2019b/bin/glnxa64" "-lmwsf_runtime"
 "-L/opt/MATLAB/R2019b/bin/glnxa64" "-lfixedpoint"
 "-L/opt/MATLAB/R2019b/bin/glnxa64" "-lut"

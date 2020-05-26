@@ -27,8 +27,10 @@
 #define rtIsInf(X)                     ((int)mxIsInf(X))
 
 /* Auxiliary Header Files */
-#include "libmwedgesobelprewitt_tbb.h"
-#include "libmwedgethinning_tbb.h"
+#include "libmwcannythresholding_tbb.h"
+#include "libmwimfilter.h"
+#include "libmwippfilter.h"
+#include "libmwippreconstruct.h"
 
 /* Type Definitions */
 
