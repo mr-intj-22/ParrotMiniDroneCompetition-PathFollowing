@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'flightControlSystem'. 
 ## 
 ## Makefile     : flightControlSystem.mk
-## Generated on : Sun May 17 05:53:19 2020
+## Generated on : Tue May 26 15:14:20 2020
 ##  version:  
 ## 
 ## Build Info:
@@ -27,7 +27,7 @@ MATLAB_ROOT               = /opt/MATLAB/R2019b
 MATLAB_BIN                = /opt/MATLAB/R2019b/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/glnxa64
 MASTER_ANCHOR_DIR         = 
-START_DIR                 = /home/mrintj/MATLAB/projects/examples/parrotMinidroneCompetitionLAST/work
+START_DIR                 = /home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-master/work
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
@@ -157,7 +157,7 @@ BUILD_TYPE = "Top-Level Standalone Executable"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -I/home/mrintj/Documents/MATLAB/SupportPackages/R2019b/toolbox/target/supportpackages/parrot/include -I$(START_DIR)/flightControlSystem_ert_rtw -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/vision/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include
+INCLUDES_BUILDINFO = -I$(START_DIR) -I$(MATLAB_ROOT)/extern/include -I/home/mrintj/Documents/MATLAB/SupportPackages/R2019b/toolbox/target/supportpackages/parrot/include -I$(START_DIR)/flightControlSystem_ert_rtw -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert -I$(MATLAB_ROOT)/toolbox/vision/include -I$(MATLAB_ROOT)/toolbox/shared/dsp/vision/matlab/include
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 
@@ -206,7 +206,7 @@ LIBS =
 ## SYSTEM LIBRARIES
 ###########################################################################
 
-SYSTEM_LIBS = 
+SYSTEM_LIBS =  -L"$(MATLAB_ROOT)/bin/glnxa64"
 
 ###########################################################################
 ## ADDITIONAL TOOLCHAIN FLAGS
