@@ -40,7 +40,7 @@ typedef struct {
   uint32_T c2_statuses[27];
   void *c2_outMexFcns[27];
   void *c2_inMexFcns[27];
-  real_T c2_HoughSpace[2553600];
+  real_T c2_HoughSpace[2688000];
   real_T c2_x_data[67200];
   real_T c2_b_x_data[67200];
   real_T c2_c_x_data[67200];

@@ -9,194 +9,8 @@ DEF AHMap Transform {
     }
   }
 }
-DEF IsoNoRotation Viewpoint {
-  description "Isometric - No Rotation"
-  position 57.9009 0.670747 95.99
-  orientation -0.46727 0.858698 0.210466 0.847752
-}
-DEF OnQuadNoRotation Viewpoint {
-  description "Chase - No Rotation"
-  position 53 1.00177 95
-  orientation 0 -1 -0 1.57
-}
-# Copyright 2017-2018 The MathWorks, Inc.
-DEF V1 Transform {
-  translation 48.1 -0.02 97.92
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 1.5 0.001 0.15
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF H1 Transform {
-  translation 48.8 -0.02 98.92
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF I2_0001 Transform {
-  translation 50.65 -0.02 100.15
-  scale 1 1 0.78
-  rotation 0 1 0 2.3
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF I2 Transform {
-  translation 49.45 -0.02 100.25
-  scale 1 1 0.8
-  rotation 0 1 0 -2.0944
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF H2 Transform {
-  translation 51.2 -0.02 98.7
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017-2018 The MathWorks, Inc.
-DEF V2 Transform {
-  translation 51.9 -0.02 97.7
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 1.5 0.001 0.15
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF I3 Transform {
-  translation 53.5 -0.02 97.2
-  rotation 0 1 0 -1.0472
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF H3 Transform {
-  translation 54.31 -0.02 95.78
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017-2018 The MathWorks, Inc.
-DEF V3 Transform {
-  translation 53.64 -0.02 94.8
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 1.5 0.001 0.15
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF I4 Transform {
-  translation 52.25 -0.02 95.48
-  rotation 0 1 0 -0.7854
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF I5 Transform {
-  translation 50.88 -0.02 95.42
-  rotation 0 1 0 0.7854
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Box {
-      size 0.15 0.001 2
-    }
-  }
-}
-# Copyright 2017 The MathWorks, Inc.
-DEF circle Transform {
-  translation 50.04 -0.02 94.58
-  children Shape {
-    appearance Appearance {
-      material Material {
-        diffuseColor 1 0 0
-      }
-    }
-    geometry Cylinder {
-      radius 0.12
-      height 0.001
-    }
-  }
-}
 DEF QuadBody Transform {
-  translation 47.2 0.001765 97.92
+  translation 50 0.001765 90
   scaleOrientation 0 1 0 0
   children [
     DEF Airframe Transform {
@@ -241,4 +55,101 @@ DEF QuadBody Transform {
       orientation 0 1 0 -1.57
     }
   ]
+}
+DEF IsoNoRotation Viewpoint {
+  description "Isometric - No Rotation"
+  position 50.9009 0.670747 90.99
+  orientation -0.46727 0.858698 0.210466 0.847752
+}
+DEF OnQuadNoRotation Viewpoint {
+  description "Chase - No Rotation"
+  position 47 1.00177 90
+  orientation 0 -1 -0 1.57
+}
+# Copyright 2017-2018 The MathWorks, Inc.
+DEF TrackSection1 Transform {
+  translation 50.5 -0.02 90
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 1 0.001 0.12
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF TrackSection3 Transform {
+  translation 52.9 -0.02 91.6
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Cylinder {
+      radius 0.1
+      height 0.001
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF BlueMarker Transform {
+  translation 50 -0.02 92
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0 0 1
+      }
+    }
+    geometry Box {
+      size 0.2 0.01 0.2
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF TrackSection2 Transform {
+  translation 51 -0.02 90.45
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.12 0.001 1
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
+DEF TrackSection4 Transform {
+  translation 51.3535 -0.02 91.25
+  rotation 0 1 0 0.7845
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.12 0.001 1
+    }
+  }
+}
+# Copyright 2017-2018 The MathWorks, Inc.
+DEF TrackSection5 Transform {
+  translation 52.17 -0.02 91.6
+  rotation 0 0 0 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 1 0.001 0.12
+    }
+  }
 }
