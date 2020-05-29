@@ -2,15 +2,6 @@
 #define __c2_flightControlSystem_h__
 
 /* Type Definitions */
-#ifndef typedef_c2_coder_internal_ref
-#define typedef_c2_coder_internal_ref
-
-typedef struct {
-  real_T contents;
-} c2_coder_internal_ref;
-
-#endif                                 /*typedef_c2_coder_internal_ref*/
-
 #ifndef struct_emxArray_int32_T_19200
 #define struct_emxArray_int32_T_19200
 
@@ -50,9 +41,9 @@ typedef struct {
   void *c2_outMexFcns[27];
   void *c2_inMexFcns[27];
   real_T c2_HoughSpace[2688000];
-  real_T c2_i_data[67200];
   real_T c2_x_data[67200];
   real_T c2_b_x_data[67200];
+  real_T c2_c_x_data[67200];
   real_T c2_PeakCircles[67200];
   real_T c2_radii_all_data[67200];
   real_T c2_yy_data[67200];
@@ -78,7 +69,7 @@ typedef struct {
   real_T c2_locationsVar_data[19200];
   real_T c2_locations_data[19200];
   real_T c2_b_locations_data[19200];
-  real_T c2_c_x_data[19200];
+  real_T c2_d_x_data[19200];
   real_T c2_X[14641];
   real_T c2_Y[14641];
   real_T c2_b_X[14641];
@@ -101,10 +92,10 @@ typedef struct {
   real32_T c2_c_dx[19200];
   real32_T c2_c_dy[19200];
   real32_T c2_varargin_1[19200];
-  real32_T c2_d_x_data[19200];
+  real32_T c2_e_x_data[19200];
   int32_T c2_c_ii_data[19200];
   int32_T c2_c_jj_data[19200];
-  c2_emxArray_int32_T_19200 c2_ld_emlrtRSI;
+  c2_emxArray_int32_T_19200 c2_jd_emlrtRSI;
   int32_T c2_d_ii_data[19200];
   int32_T c2_b_badPix_data[19200];
   int32_T c2_c_badPix_data[19200];
@@ -115,22 +106,20 @@ typedef struct {
   boolean_T c2_BW[19200];
   boolean_T c2_b_BW[19200];
   boolean_T c2_edgeimage[19200];
-  boolean_T c2_b_edgeimage[19200];
   boolean_T c2_E[19200];
   boolean_T c2_x[19200];
-  boolean_T c2_e_x_data[19200];
-  real_T c2_f_x_data[67200];
+  boolean_T c2_f_x_data[19200];
   real_T c2_g_x_data[67200];
   real_T c2_h_x_data[67200];
   real_T c2_i_x_data[67200];
   real_T c2_j_x_data[67200];
   real_T c2_k_x_data[67200];
   real_T c2_l_x_data[67200];
+  real_T c2_m_x_data[67200];
   int32_T c2_idx_data[19200];
   int32_T c2_b_idx_data[19200];
   CovrtStateflowInstance *c2_covrtInstance;
   void *c2_fEmlrtCtx;
-  real_T *c2_diff;
   real_T *c2_flag;
   boolean_T (*c2_c_BW)[19200];
   real_T *c2_prev_heading;

@@ -16,7 +16,7 @@ MATLAB_ROOT  = /opt/MATLAB/R2019b/toolbox/stateflow/stateflow/../../..
 BUILDARGS   = 
 #------------------------------ Include/Lib Path ------------------------------
  
-USER_INCLUDES = -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev" -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev/controller" 
+USER_INCLUDES = -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev (copy)" -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev (copy)/controller" 
 AUX_INCLUDES = 
 MLSLSF_INCLUDES  = \
     -I"/opt/MATLAB/R2019b/extern/include" \
@@ -24,7 +24,7 @@ MLSLSF_INCLUDES  = \
     -I"/opt/MATLAB/R2019b/simulink/include/sf_runtime" \
     -I"/opt/MATLAB/R2019b/stateflow/c/mex/include" \
     -I"/opt/MATLAB/R2019b/rtw/c/src" \
-    -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev/work/slprj/_sfprj/flightControlSystem/_self/sfun/src" 
+    -I"/home/mrintj/MATLAB/projects/examples/ParrotMiniDroneCompetition-PathFollowing-dev (copy)/work/slprj/_sfprj/flightControlSystem/_self/sfun/src" 
 
 THIRD_PARTY_INCLUDES = 
 
